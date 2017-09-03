@@ -8,7 +8,8 @@ setTimeout( function () { alertButtons(buttons); }, 2000);
 //for each element of table 'buttonsTable' calls function alert and display text of button's
 function alertButtons(buttonsTable) {
 
-    for (var i = 0; i < buttonsTable.length; i++) {
+    var size = buttonsTable.length;
+    for (var i = 0; i < size; i++) {
         alert(buttonsTable[i].textContent);
     }
 
